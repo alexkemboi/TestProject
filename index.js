@@ -2,12 +2,12 @@
 
 function add(a,b){
    const sum = a+b;
-   console.log('Sum',sum);
+   // console.log('Sum',sum);
    return sum;
 }
 function subtract(a,b){
    const sub=a-b;
-   console.log('sub',sub);
+   // console.log('sub',sub);
    return sub;
 }
 function divide(a,b){
@@ -16,7 +16,7 @@ function divide(a,b){
 }
 function multiply(a,b){
    const product=a*b;
-   console.log('product',product);
+   // console.log('product',product);
    return product;
 }
 add(3,4);
