@@ -19,8 +19,13 @@ function multiply(a,b){
    console.log('product',product);
    return product;
 }
+function modulus(a,b){
+   const mod=a%b;
+   console.log(mod);
+   return mod;
+}
 add(3,4);
 subtract(5,3);
 divide(10,2);
 multiply(10,2);
- 
+ modulus(5,3);
