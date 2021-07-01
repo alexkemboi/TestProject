@@ -31,9 +31,22 @@ function greaterThanFiveArray(arr){
    console.log('New Array', newArr);
   return newArr;
 }
+
+const arr=[
+  1,2,3,4,5
+]
+
+
+function doubleArray(arr){
+  const dbl =arr.map((i)=>{
+     return i*2;
+  });
+  console.log("dbl",dbl);
+}
 add(3,4);
 subtract(5,3);
 divide(10,2);
 multiply(10,2);
  modulus(5,3);
 greaterThanFiveArray([3,4,5,6,7,8]);
+ doubleArray(arr);
