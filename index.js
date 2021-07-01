@@ -24,8 +24,16 @@ function modulus(a,b){
    console.log(mod);
    return mod;
 }
+function greaterThanFiveArray(arr){
+  const newArr = arr.filter((a) => {
+      return a > 5;
+   });
+   console.log('New Array', newArr);
+  return newArr;
+}
 add(3,4);
 subtract(5,3);
 divide(10,2);
 multiply(10,2);
  modulus(5,3);
+greaterThanFiveArray([3,4,5,6,7,8]);
