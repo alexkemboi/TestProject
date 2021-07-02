@@ -44,7 +44,7 @@ function doubleArray(arr){
   console.log("dbl",dbl);
 }
 const arrf=[1,2,3,4];
-function doublke(arrf){
+function doubleGreaterthanEight(arrf){
     const r=arrf.map((f)=>{
         const double =f*3;
         return double;
@@ -63,4 +63,4 @@ multiply(10,2);
  modulus(5,3);
 greaterThanFiveArray([3,4,5,6,7,8]);
  doubleArray(arr);
- doublke(arrf);
+ doubleGreaterthanEight(arrf);
