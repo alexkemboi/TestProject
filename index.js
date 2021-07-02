@@ -48,12 +48,10 @@ function doubleGreaterthanEight(arrf){
     const r=arrf.map((f)=>{
         const double =f*3;
         return double;
-    })
-    console.log("double",r);
-    const x=r.filter((n)=>{
+    }).filter((n)=>{
        return n>8;
     })
-    console.log("Greater than 8",x);
+    console.log("Greater than 8",r);
 }
 
 add(3,4);
