@@ -43,6 +43,19 @@ function doubleArray(arr){
   });
   console.log("dbl",dbl);
 }
+const arrf=[1,2,3,4];
+function doublke(arrf){
+    const r=arrf.map((f)=>{
+        const double =f*3;
+        return double;
+    })
+    console.log("double",r);
+    const x=r.filter((n)=>{
+       return n>8;
+    })
+    console.log("Greater than 8",x);
+}
+
 add(3,4);
 subtract(5,3);
 divide(10,2);
@@ -50,3 +63,4 @@ multiply(10,2);
  modulus(5,3);
 greaterThanFiveArray([3,4,5,6,7,8]);
  doubleArray(arr);
+ doublke(arrf);
